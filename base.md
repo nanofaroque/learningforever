@@ -6,11 +6,11 @@
   * Conclusion
 * Overview
   * The Five C's
-     - [ ] Category: What type of paper is this? A measurement paper? An analysis of an existing system? A description of a research prototype?
-     - [ ] Context: Which other papers is it related to? Which theoretical bases were used to analyze the problem?
-     - [ ] Correctness: Do the assumptions appear to be valid?
-     - [ ] Contributions: What are the paper’s main contributions
-     - [ ] Clarity: Is the paper well written?
+     - [ ] **Category**: What type of paper is this? A measurement paper? An analysis of an existing system? A description of a research prototype?
+     - [ ] **Context**: Which other papers is it related to? Which theoretical bases were used to analyze the problem?
+     - [ ] **Correctness**: Do the assumptions appear to be valid?
+     - [ ] **Contributions**: What are the paper’s main contributions
+     - [ ] **Clarity**: Is the paper well written?
    * Notes
 * Questions
    * What is the motivation for the paper?
