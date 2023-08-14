@@ -9,12 +9,13 @@
   * The Five C's
      - [ ] **Category**: Proposed a new tools for running shell in distributed system
      - [ ] **Context**: This paper is for automation world where shell script are promiment
-     - [ ] **Correctness**: Do the assumptions appear to be valid?
-     - [ ] **Contributions**: What are the paper’s main contributions
-     - [ ] **Clarity**: Is the paper well written?
+     - [ ] **Correctness**: Yes
+     - [ ] **Contributions**: Running shell into a distributed environment and parallelism
+     - [ ] **Clarity**: Yes; this paper is well written. Provided performance and comparison. Author runs the system on noncloud and cloud environment. 
    * Notes
      * Shell is still very promiment tools for automation because it is very dynamic and work with third party commands implemented in any language
-     * Shell works very well in a single computer environment. Author proposed a tools to make the shell capability distributed. It will work as shim[what is shim?]. 
+     * Shell works very well in a single computer environment. Author proposed a tools to make the shell capability distributed. It will work as shim[what is shim?].
+     * 
 * Questions
    * What is the motivation for the paper?
    * What are the paper's contributions?
