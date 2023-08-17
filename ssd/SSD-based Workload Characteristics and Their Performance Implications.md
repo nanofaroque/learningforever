@@ -8,6 +8,7 @@
 
 * Outline
   * What is the research and why does it matter?
+    * I/O work load analysis
     * 
   * How does it work?
   * How is the research evaluated?
