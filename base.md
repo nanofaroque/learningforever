@@ -1,3 +1,4 @@
+* Find what problem they focused on the paper try to solve it in your own way and start reading the paper. 
 * Link to the paper
 * Outline
   * What is the research and why does it matter?
