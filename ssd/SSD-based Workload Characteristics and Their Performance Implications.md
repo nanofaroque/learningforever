@@ -14,3 +14,11 @@
   * How does it work?
   * How is the research evaluated?
   * Conclusion
+
+
+
+# Data Description 
+
+| Device Major Number | Device Minor Number | CPU Core ID | Record ID | Timestamp (ns)   | Process ID | Trace Action | Operation Type | Sector Number + I/O Size | Process Name |
+|---------------------|---------------------|-------------|-----------|------------------|------------|--------------|----------------|--------------------------|--------------|
+| 259                 | 2                   | 0           | 1         | 0.000000000      | 4020       | Q            | R              | 282624 + 8               | [java]       |
