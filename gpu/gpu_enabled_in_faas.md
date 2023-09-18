@@ -19,6 +19,13 @@
      - [ ] **Clarity**: 
      Yes; it is very well written
    * Notes
+   `GPU Problems for multiple applications
+   GPUs have three limitations that make it difficult for multiple applications to share the same GPU.`
+   * First, the capacity of GPU memory is significantly lower than host memory. If the processing data size is larger than the available GPU memory capacity, GPU programmers are responsible for managing the active working set in GPU memory. 
+   * Second, although GPU provides fast computations, it incurs extra overhead while transferring data, e.g., model parameters and inputs, from host memory to GPU memory. 
+   * The data transfer overhead of the GPU arises in the PCIe interface as the maximum bandwidth of the current PCIe is much lower (in the order of 100GB/s) compared to the internal memory bandwidth of the GPU (in the order of 1TB/s).
+
+   
 * Questions
    * What is the motivation for the paper?
    * What are the paper's contributions?
