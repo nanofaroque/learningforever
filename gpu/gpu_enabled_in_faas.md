@@ -52,3 +52,19 @@
             * Diana M. Naranjo, Sebastia ́n Risco, Carlos de Alfonso, Alfonso Pe ́rez,
 Ignacio Blanquer, and Germa ́n Molto ́. Accelerated serverless computing based on GPU virtualization. J. Parallel Distrib. Comput., 139(C):32–42, May 2020.
   - [ ] Third pass - 4 hours
+ 
+  * Design
+   * Scheduler:
+      * The Scheduler decides where (which nodes and which GPUs) to dispatch function requests for the entire FaaS system. The Scheduler follows a specific scheduling policy that can be enabled when the Scheduler component is first initiated. We will discuss the policies in detail in Section IV. Once the Scheduler decides on a request that needs to be dispatched, it groups the function’s information with the GPU address and forwards them to the function’s container. The function request contains the input data and the registered function’s ID that uses the pre-trained model for inference. The GPU address contains the IP address of the server where the GPU is installed and the device name used to access the GPU on that server.
+     * Author Uses two manager's GPU Manager and Cache Manager.
+     * GPU Manager:
+       * GPU Manager runs on each GPU node and manages the GPU processes running on the GPU node.
+       * GPU Manager asks Cache Manager to determine whether the requested model is already cached in the GPU memory (i.e., a cache hit) or not (i.e., a cache miss). If it is a cache miss, it also checks if there are victim models that need to be evicted to make space for the model needed by the new request.
+       * 
+     * CPU Manager:
+       * Cache Manager runs alongside the Scheduler as a global component and largely follows the LRU replacement policy to manage the models in the memory of each GPU in the system.
+      
+  * Evaluations
+    * The results show that the Locality-Aware-Load- Balancing (LALB) scheduler reduces the average latency by 97.74% and 93.33% compared to the default Load-Balancing (LB)
+  * Discussion
+    * Overhead and Scalability. The GPU Managers are dis- tributed, one per GPU node, and can therefore scale with the number of nodes. On each node, the GPU Manager can scale with the number of models by using multiple GPU processes to handle the concurrent models that the local GPUs need to serve, one per model.
