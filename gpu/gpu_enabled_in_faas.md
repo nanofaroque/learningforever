@@ -49,4 +49,6 @@
         - [ ] Remember to mark relevant unread references for further reading (this is a good way to learn more about the background of the paper).
         * Future Reads:
             * Jaewook Kim, Tae Joon Jun, Daeyoun Kang, Dohyeun Kim, and Daeyoung Kim. GPU enabled serverless computing framework. In 2018 26th Euromicro International Conference on Parallel, Distributed and Network-based Processing (PDP), pages 533–540, 2018.
+            * Diana M. Naranjo, Sebastia ́n Risco, Carlos de Alfonso, Alfonso Pe ́rez,
+Ignacio Blanquer, and Germa ́n Molto ́. Accelerated serverless computing based on GPU virtualization. J. Parallel Distrib. Comput., 139(C):32–42, May 2020.
   - [ ] Third pass - 4 hours
