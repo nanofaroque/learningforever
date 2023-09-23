@@ -47,4 +47,6 @@
       * Read the paper with greater care, but ignore details such as proofs
         - [ ] Look carefully at the figures, diagrams and other illustrations in the paper. Pay special attention to graphs. Are the axes properly labeled? Are results shown with error bars, so that conclusions are statistically significant? Common mistakes like these will separate rushed, shoddy work from the truly excellent
         - [ ] Remember to mark relevant unread references for further reading (this is a good way to learn more about the background of the paper).
+        * Future Reads:
+            * Jaewook Kim, Tae Joon Jun, Daeyoun Kang, Dohyeun Kim, and Daeyoung Kim. GPU enabled serverless computing framework. In 2018 26th Euromicro International Conference on Parallel, Distributed and Network-based Processing (PDP), pages 533–540, 2018.
   - [ ] Third pass - 4 hours
