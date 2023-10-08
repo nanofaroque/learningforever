@@ -1,5 +1,5 @@
 * Find what problem they focused on the paper try to solve it in your own way and start reading the paper. 
-* Link to the paper
+* [Link to the paper](https://www.cs.utexas.edu/~rossbach/cs380p/papers/gray81vldb-transaction.pdf)
 * Outline
   * What is the research and why does it matter?
   * How does it work?
